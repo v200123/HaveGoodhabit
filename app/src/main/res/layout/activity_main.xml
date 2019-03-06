@@ -11,8 +11,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"></include>
     <com.google.android.material.navigation.NavigationView
-        android:background="@color/forest3"
-        android:textAlignment="center"
+        android:id="@+id/myNav"
+        android:padding="8dp"
+        android:background="@color/forest1"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
