@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
       android:fitsSystemWindows="true"
     tools:context=".StartActivity">
-<include layout="@layout/habit_contain"
+
+    <include layout="@layout/habit_contain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"></include>
     <com.google.android.material.navigation.NavigationView
